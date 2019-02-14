@@ -21,46 +21,56 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcomeScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="ibG-U5-cyT">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEd-Yx-hYi">
-                                <rect key="frame" x="16" y="193" width="343" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEd-Yx-hYi">
+                                <rect key="frame" x="72.333333333333329" y="205.33333333333334" width="230.66666666666669" height="29.666666666666657"/>
                                 <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Hje-W0-wDk">
-                                <rect key="frame" x="113" y="44" width="149" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Hje-W0-wDk">
+                                <rect key="frame" x="128" y="60" width="119" height="20"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWi-zb-MTM">
-                                <rect key="frame" x="16" y="119" width="343" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="36"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4t4-jF-5gs" customClass="BorderButton" customModule="swoosh" customModuleProvider="target">
-                                <rect key="frame" x="16" y="726" width="343" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="GET STARTED">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find a team in your city and dominate the league" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6w-ik-a6f">
-                                <rect key="frame" x="16" y="267" width="343" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find a team in your city and dominate the league" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6w-ik-a6f">
+                                <rect key="frame" x="16" y="243.00000000000003" width="343" height="39.333333333333343"/>
                                 <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GO ALL IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWi-zb-MTM">
+                                <rect key="frame" x="95.333333333333329" y="160" width="184.66666666666669" height="44.333333333333343"/>
+                                <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4t4-jF-5gs" customClass="BorderButton" customModule="swoosh" customModuleProvider="target">
+                                <rect key="frame" x="16" y="742" width="343" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="LH0-CM-JHs"/>
+                                </constraints>
+                                <state key="normal" title="GET STARTED">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ibG-U5-cyT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6MN-yQ-BH5"/>
-                            <constraint firstItem="ibG-U5-cyT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ABH-zh-5NE"/>
-                            <constraint firstItem="ibG-U5-cyT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="V9S-Xj-O8h"/>
-                            <constraint firstAttribute="bottom" secondItem="ibG-U5-cyT" secondAttribute="bottom" id="huE-Ev-Pcr"/>
+                            <constraint firstItem="wEd-Yx-hYi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5eL-Yc-yTh"/>
+                            <constraint firstAttribute="bottom" secondItem="4t4-jF-5gs" secondAttribute="bottom" constant="20" id="7dv-0N-weS"/>
+                            <constraint firstItem="Hje-W0-wDk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7kG-8e-Kvx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4t4-jF-5gs" secondAttribute="trailing" constant="16" id="ECC-r8-sKE"/>
+                            <constraint firstItem="ibG-U5-cyT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KLq-HT-nQm"/>
+                            <constraint firstAttribute="bottom" secondItem="ibG-U5-cyT" secondAttribute="bottom" id="NYF-ks-qut"/>
+                            <constraint firstItem="4t4-jF-5gs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="R7n-R2-e7g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d6w-ik-a6f" secondAttribute="trailing" constant="16" id="TvI-ga-LGT"/>
+                            <constraint firstItem="yWi-zb-MTM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aNV-tk-w7W"/>
+                            <constraint firstItem="d6w-ik-a6f" firstAttribute="top" secondItem="wEd-Yx-hYi" secondAttribute="bottom" constant="8" id="bSN-1G-V9n"/>
+                            <constraint firstItem="ibG-U5-cyT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="d87-Yx-GOw"/>
+                            <constraint firstItem="wEd-Yx-hYi" firstAttribute="top" secondItem="yWi-zb-MTM" secondAttribute="bottom" constant="1" id="dTO-Ot-F5X"/>
+                            <constraint firstItem="d6w-ik-a6f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="gum-4f-CQL"/>
+                            <constraint firstItem="yWi-zb-MTM" firstAttribute="top" secondItem="Hje-W0-wDk" secondAttribute="bottom" constant="80" id="luA-26-QWw"/>
+                            <constraint firstItem="ibG-U5-cyT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="oor-Ir-Yiz"/>
+                            <constraint firstItem="Hje-W0-wDk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="uJH-Z5-bvu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
